@@ -81,6 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dbo.Produtos.sql" />
+    <Content Include="Graphics\GraphicsExample.html" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
