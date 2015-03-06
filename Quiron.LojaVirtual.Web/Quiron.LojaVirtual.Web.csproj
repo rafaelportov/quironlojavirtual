@@ -116,6 +116,7 @@
     </Compile>
     <Compile Include="HtmlHelpers\PaginacaoHelpers.cs" />
     <Compile Include="Models\Paginacao.cs" />
+    <Compile Include="Models\ProdutosViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +127,7 @@
     <Content Include="Views\Produtos\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Vitrine\ListaProdutos.cshtml" />
+    <Content Include="Views\Shared\ProdutoDetalhes.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
