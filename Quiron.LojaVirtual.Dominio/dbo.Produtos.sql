@@ -1,3 +1,4 @@
+USE dbLojaVirtual
 SET IDENTITY_INSERT [dbo].[Produtos] ON
 INSERT INTO [dbo].[Produtos] ([ProdutoId], [Nome], [Descricao], [Categoria], [Preco]) VALUES (1, N'Bola de Basquete Jaguar Power Jam', N'A Bola de Basquete Jaguar Power Jam foi desenvolvida especialmente para todos que procuram mais controle e precisão durante o jogo. Com um design diferenciado e inovador, ela é confeccionada em material resistente que oferece mais eficiência, agilidade e rapidez para seus passes. Vale a pena conferir!', N'Basquete', CAST(17.99 AS Decimal(16, 2)))
 INSERT INTO [dbo].[Produtos] ([ProdutoId], [Nome], [Descricao], [Categoria], [Preco]) VALUES (2, N'Tênis Nike Air Max Stutter Step - Masculino', N'O Tênis Nike Air Max Stutter Step vai auxiliar os jogadores de basquete, que procuram aprimorar o desempenho dentro das quadras.', N'Basquete', CAST(328.90 AS Decimal(16, 2)))

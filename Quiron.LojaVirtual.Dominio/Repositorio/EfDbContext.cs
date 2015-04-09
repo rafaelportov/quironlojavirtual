@@ -9,6 +9,7 @@ using Quiron.LojaVirtual.Dominio.Entidades;
 
 namespace Quiron.LojaVirtual.Dominio.Repositorio
 {
+    //Precisa referenciar no WebConfig onde está o banco de dados (ConnectionString)
     public class EfDbContext : DbContext
     {
         public DbSet<Produto> Produtos { get; set; }

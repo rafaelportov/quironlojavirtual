@@ -9,6 +9,7 @@ using Quiron.LojaVirtual.Web.Models;
 namespace Quiron.LojaVirtual.Web.Controllers
 {
     public class VitrineController : Controller
+
     {
         private ProdutosRepositorio _repositorio;
         public int ProdutosPorPagina = 10;
@@ -26,7 +27,7 @@ namespace Quiron.LojaVirtual.Web.Controllers
 
                 paginacao = new Paginacao
                 {
-                    PaginaAtual = pagina,
+                    PaginaAtual = pagina, 
                     ItensPorPagina = ProdutosPorPagina,
                     ItensTotal = categoria == null ? _repositorio.Produtos.Count() : _repositorio.Produtos.Count(e => e.Categoria == categoria)
 
